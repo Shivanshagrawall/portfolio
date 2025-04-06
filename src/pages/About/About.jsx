@@ -23,7 +23,7 @@ const About = () => {
             <div className="Info_details">
               <Info />
             </div>
-            <a className="cv" target='_blank' href='https://drive.google.com/file/d/12NraonoI71h8wzlHgy2zCFxmRs2HQgyf/view?usp=drivesdk'>
+            <a className="cv" target='_blank' href='https://drive.google.com/file/d/1A59HUnrVsPeaU3GO9GB2Qi4zt6XnjRvW/view?usp=drivesdk'>
               <button className='cvbtn'>Download CV <span><MdDownload /></span></button>
             </a>
           </div>

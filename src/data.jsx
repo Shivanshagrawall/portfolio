@@ -16,6 +16,11 @@ import { CgWebsite } from "react-icons/cg";
 import { FaBriefcase } from "react-icons/fa";
 import { FaGraduationCap } from "react-icons/fa6";
 import { MdOutlineInvertColors } from "react-icons/md";
+import imagify from './assets/Imagify.png'
+import edemy from './assets/Edemy.png'
+import crypto from './assets/CryptoTracker.png'
+import shopsphere from './assets/ShopSphere.png'
+import callsphere from './assets/CallSphere.png'
 
 // Exports Links 
 export const links = [
@@ -44,84 +49,247 @@ export const links = [
 
 // Export PortFolio
 export const PortFolio = [
+    // {
+    //     id: 1,
+    //     img: image_chatbot,
+    //     title: 'AI Chatbot',
+    //     details: [
+    //         {
+    //             icon: <FiFileText />,
+    //             title: 'Project',
+    //             desc: 'AI Chatbot',
+    //         },
+    //         {
+    //             icon: <FiUser />,
+    //             title: 'Technology',
+    //             desc: 'HTML CSS JS',
+    //         },
+    //         {
+    //             icon: <FaGithub />,
+    //             title: 'Github',
+    //             desc: 'https://github.com/Shivanshagrawall/AI_Chatbot.git',
+    //         },
+    //         {
+    //             icon: <CgWebsite />,
+    //             title: 'Website',
+    //             desc: 'https://shivanshagrawall.github.io/AI_Chatbot/',
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 2,
+    //     img: image_sudoko,
+    //     title: 'Sudoku_game',
+    //     details: [
+    //         {
+    //             icon: <FiFileText />,
+    //             title: 'Project',
+    //             desc: 'Sudoku_game',
+    //         },
+    //         {
+    //             icon: <FiUser />,
+    //             title: 'Technology',
+    //             desc: 'HTML CSS JS',
+    //         },
+    //         {
+    //             icon: <FaGithub />,
+    //             title: 'Github',
+    //             desc: 'https://github.com/Shivanshagrawall/sudoku_game2.git',
+    //         },
+    //         {
+    //             icon: <CgWebsite />,
+    //             title: 'Website',
+    //             desc: 'https://shivanshagrawall.github.io/sudoku_game2/',
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 3,
+    //     img: image_currency_convertor,
+    //     title: 'Currency Convertor',
+    //     details: [
+    //         {
+    //             icon: <FiFileText />,
+    //             title: 'Project',
+    //             desc: 'Currency Convertor',
+    //         },
+    //         {
+    //             icon: <FiUser />,
+    //             title: 'Technology',
+    //             desc: 'HTML CSS JS',
+    //         },
+    //         {
+    //             icon: <FaGithub />,
+    //             title: 'Github',
+    //             desc: 'https://github.com/Shivanshagrawall/Currency-Convertor.git',
+    //         },
+    //         {
+    //             icon: <CgWebsite />,
+    //             title: 'Website',
+    //             desc: 'https://shivanshagrawall.github.io/Currency-Convertor/',
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 4,
+    //     img: image_Nora_AI,
+    //     title: 'Nora AI Assistant',
+    //     details: [
+    //         {
+    //             icon: <FiFileText />,
+    //             title: 'Project',
+    //             desc: 'Nora AI',
+    //         },
+    //         {
+    //             icon: <FiUser />,
+    //             title: 'Technology',
+    //             desc: 'React Js',
+    //         },
+    //         {
+    //             icon: <FaGithub />,
+    //             title: 'Github',
+    //             desc: 'https://github.com/Shivanshagrawall/Nora-Virtual-Assistant',
+    //         },
+    //         {
+    //             icon: <CgWebsite />,
+    //             title: 'Website',
+    //             desc: 'https://shivanshagrawall.github.io/Nora-Virtual-Assistant/',
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 5,
+    //     img: image_AI_Image_Generation,
+    //     title: 'AI Image Generation',
+    //     details: [
+    //         {
+    //             icon: <FiFileText />,
+    //             title: 'Project',
+    //             desc: 'AI Image Generation',
+    //         },
+    //         {
+    //             icon: <FiUser />,
+    //             title: 'Technology',
+    //             desc: 'React JS',
+    //         },
+    //         {
+    //             icon: <FaGithub />,
+    //             title: 'Github',
+    //             desc: 'https://github.com/Shivanshagrawall/AI_Image_Generation/',
+    //         },
+    //         {
+    //             icon: <CgWebsite />,
+    //             title: 'Website',
+    //             desc: 'https://shivanshagrawall.github.io/AI_Image_Generation/',
+    //         },
+    //     ]
+    // },
+    // {
+    //     id: 6,
+    //     img: image_College_Website,
+    //     title: 'College Website',
+    //     details: [
+    //         {
+    //             icon: <FiFileText />,
+    //             title: 'Project',
+    //             desc: 'College Website',
+    //         },
+    //         {
+    //             icon: <FiUser />,
+    //             title: 'Technology',
+    //             desc: 'React Js',
+    //         },
+    //         {
+    //             icon: <FaGithub />,
+    //             title: 'Github',
+    //             desc: 'https://github.com/Shivanshagrawall/college_website',
+    //         },
+    //         {
+    //             icon: <CgWebsite />,
+    //             title: 'Website',
+    //             desc: 'https://shivanshagrawall.github.io/college_website/',
+    //         },
+    //     ]
+    // },
+
     {
         id: 1,
-        img: image_chatbot,
-        title: 'AI Chatbot',
+        img: imagify,
+        title: 'Text to Image AI Saas',
         details: [
             {
                 icon: <FiFileText />,
                 title: 'Project',
-                desc: 'AI Chatbot',
+                desc: 'Text to Image',
             },
             {
                 icon: <FiUser />,
                 title: 'Technology',
-                desc: 'HTML CSS JS',
+                desc: 'MERN Stack',
             },
             {
                 icon: <FaGithub />,
                 title: 'Github',
-                desc: 'https://github.com/Shivanshagrawall/AI_Chatbot.git',
+                desc: 'https://github.com/Shivanshagrawall/Imagify',
             },
             {
                 icon: <CgWebsite />,
                 title: 'Website',
-                desc: 'https://shivanshagrawall.github.io/AI_Chatbot/',
+                desc: 'https://imagify-frontent.vercel.app/',
             },
         ]
     },
     {
         id: 2,
-        img: image_sudoko,
-        title: 'Sudoku_game',
+        img: edemy,
+        title: 'Learning Platform',
         details: [
             {
                 icon: <FiFileText />,
                 title: 'Project',
-                desc: 'Sudoku_game',
+                desc: 'Learning Platform',
             },
             {
                 icon: <FiUser />,
                 title: 'Technology',
-                desc: 'HTML CSS JS',
+                desc: 'MERN Stack',
             },
             {
                 icon: <FaGithub />,
                 title: 'Github',
-                desc: 'https://github.com/Shivanshagrawall/sudoku_game2.git',
+                desc: 'https://github.com/Shivanshagrawall/Learning_Management_System',
             },
             {
                 icon: <CgWebsite />,
                 title: 'Website',
-                desc: 'https://shivanshagrawall.github.io/sudoku_game2/',
+                desc: 'https://learning-management-system-frontent.vercel.app/',
             },
         ]
     },
     {
         id: 3,
-        img: image_currency_convertor,
-        title: 'Currency Convertor',
+        img: crypto,
+        title: 'Crypto Tracker',
         details: [
             {
                 icon: <FiFileText />,
                 title: 'Project',
-                desc: 'Currency Convertor',
+                desc: 'Crypto Tracker',
             },
             {
                 icon: <FiUser />,
                 title: 'Technology',
-                desc: 'HTML CSS JS',
+                desc: 'MERN Stack',
             },
             {
                 icon: <FaGithub />,
                 title: 'Github',
-                desc: 'https://github.com/Shivanshagrawall/Currency-Convertor.git',
+                desc: 'https://github.com/Shivanshagrawall/Cryptoplace',
             },
             {
                 icon: <CgWebsite />,
                 title: 'Website',
-                desc: 'https://shivanshagrawall.github.io/Currency-Convertor/',
+                desc: 'https://cryptoplace-amber.vercel.app/',
             },
         ]
     },
@@ -154,58 +322,58 @@ export const PortFolio = [
     },
     {
         id: 5,
-        img: image_AI_Image_Generation,
-        title: 'AI Image Generation',
+        img: shopsphere,
+        title: 'E-Commerce Website',
         details: [
             {
                 icon: <FiFileText />,
                 title: 'Project',
-                desc: 'AI Image Generation',
+                desc: ' E-Commerce Website',
             },
             {
                 icon: <FiUser />,
                 title: 'Technology',
-                desc: 'React JS',
+                desc: 'MERN Stack',
             },
             {
                 icon: <FaGithub />,
                 title: 'Github',
-                desc: 'https://github.com/Shivanshagrawall/AI_Image_Generation/',
+                desc: 'https://github.com/Shivanshagrawall/ShopSphere',
             },
             {
                 icon: <CgWebsite />,
                 title: 'Website',
-                desc: 'https://shivanshagrawall.github.io/AI_Image_Generation/',
+                desc: 'https://shop-sphere-ivory.vercel.app/',
             },
         ]
     },
     {
         id: 6,
-        img: image_College_Website,
-        title: 'College Website',
+        img: callsphere,
+        title: 'Video Conferenceing App',
         details: [
             {
                 icon: <FiFileText />,
                 title: 'Project',
-                desc: 'College Website',
+                desc: 'Video Conference App',
             },
             {
                 icon: <FiUser />,
                 title: 'Technology',
-                desc: 'React Js',
+                desc: 'MERN Stack',
             },
             {
                 icon: <FaGithub />,
                 title: 'Github',
-                desc: 'https://github.com/Shivanshagrawall/college_website',
+                desc: 'https://github.com/Shivanshagrawall/CallSphere',
             },
             {
                 icon: <CgWebsite />,
                 title: 'Website',
-                desc: 'https://shivanshagrawall.github.io/college_website/',
+                desc: 'https://call-sphere.vercel.app/',
             },
         ]
-    }
+    },
 ]
 
 // Export Personal Info 
@@ -267,12 +435,12 @@ export const personalInfo = [
 export const stats = [
     {
         id: 1,
-        no: "300+",
+        no: "400+",
         title: 'DSA Question'
     },
     {
         id: 2,
-        no: "70+",
+        no: "75+",
         title: 'Github Respositories'
     },
     {
@@ -282,7 +450,7 @@ export const stats = [
     },
     {
         id: 4,
-        no: "1+",
+        no: "3+",
         title: 'Intership Completed'
     }
 ]
@@ -321,6 +489,35 @@ export const skills = [
         id: 8,
         title: 'C++',
     },
+    {
+        id:9,
+        title:'Java',
+    },
+    {
+        id:10,
+        title:'TypeScript',
+    },
+    {
+        id:11,
+        title:'NextJs',
+    },
+    {
+        id:11,
+        title:'Redux',
+    },
+    {
+        id:11,
+        title:'ExpressJs',
+    },
+    {
+        id:12,
+        title:'Tailwind CSS',
+    },
+    {
+        id:13,
+        title:'MySQl',
+    },
+    
 ]
 
 // Export Experience Section
@@ -328,27 +525,39 @@ export const experience = [
     {
         id: 1,
         category: 'experience',
+        company:'Freelancing',
+        icon: <FaBriefcase />,
+        year: 'Sept 2024 - Present',
+        title: 'Full Stack Intern',
+        desc: 'Do Freelancing Work',
+    },
+    {
+        id: 2,
+        category: 'experience',
+        company:'Code Aplha',
+        icon: <FaBriefcase />,
+        year: 'Mar 2025 - Apr 2025',
+        title: 'Full Stack Intern',
+        desc: 'Make Website during Intership',
+    },
+    {
+        id: 3,
+        category: 'experience',
+        company:'CodeSoft',
+        icon: <FaBriefcase />,
+        year: 'Dec 2024 - Jan 2025',
+        title: 'Web development Intern',
+        desc: 'Build Website during Intership',
+    },
+    {
+        id: 4,
+        category: 'experience',
+        company:'Bharat Intern',
         icon: <FaBriefcase />,
         year: 'Oct 2023 - Dec 2023',
         title: 'Web development Intern',
         desc: 'Make 3 Website during Intership',
     },
-    // {
-    //     id: 2,
-    //     category: 'experience',
-    //     icon: <FaBriefcase />,
-    //     year: '2018-present',
-    //     title: 'Web development Intern',
-    //     desc: 'I am the best in this universe',
-    // },
-    // {
-    //     id: 3,
-    //     category: 'experience',
-    //     icon: <FaBriefcase />,
-    //     year: '2018-present',
-    //     title: 'Web development Intern',
-    //     desc: 'I am the best in this universe',
-    // }
 ]
 
 // Export Education Section

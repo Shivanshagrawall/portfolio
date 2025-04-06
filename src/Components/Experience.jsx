@@ -11,6 +11,7 @@ const Experience = () => {
           <div className="experience_item" key={item.id}>
             <div className='experience_icon'>{item.icon}</div>
             <div className="experience_year">{item.year}</div>
+            <div className="experience_title">{item.company}</div>
             <div className="experience_title">{item.title}</div>
             <div className="experience_desc">{item.desc}</div>
           </div>
