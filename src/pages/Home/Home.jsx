@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../Components/Navbar'
 import { FaArrowRight } from "react-icons/fa";
 import images from '../../assets/A._P._J._Abdul_Kalam.jpg';
+// import profile from '../../assets/Shivansh_Agrawal.jpg';
 import profile from '../../assets/Profile.jpg';
 import './Home.css'
 import { Link } from 'react-router-dom';

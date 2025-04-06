@@ -50,6 +50,16 @@
     font-size: var(--medium-font-size);
 }
 
+.email a p {
+    color: var(--text-color);
+    text-decoration: underline;
+}
+
+.call a p{
+    color: var(--text-color);
+    text-decoration: underline;
+}
+
 .email_section,
 .call_section {
     width: 100%;
